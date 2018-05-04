@@ -1,8 +1,8 @@
-var express = require('express');
-var  bodyParser = require('body-parser');
-var fs = require('fs');
+const express = require('express');
+const bodyParser = require('body-parser');
+const fs = require('fs');
 
-var app = express();
+const app = express();
 var stringfyFile = '';
 
 app.use(bodyParser.json());
